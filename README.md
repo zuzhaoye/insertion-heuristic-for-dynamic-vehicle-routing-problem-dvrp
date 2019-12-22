@@ -19,9 +19,9 @@ It is an insertion heuristic designed for online vehicle routing problem (VRP) w
 
 Notes:
 - x and y are coordinate of the node.
-- 'label' 0 means deport, where all the vehicle stored at time = 0
-- 'label' 1 means pick-up requirement
-- 'label' 2 means drop-off requirement
+- 'label' 0 means depot, where all the vehicle stored at time = 0
+- 'label' 1 means pick-up node
+- 'label' 2 means drop-off node
 - Pick-up node 1 corresponds to drop-off node 6, i.e. 1 - 6, 2 - 7, ...
 - 'time' is the time at which the customer send out a request for pick-up. 
 - For drop-off nodes, there is no need to put a value in 'time' column
