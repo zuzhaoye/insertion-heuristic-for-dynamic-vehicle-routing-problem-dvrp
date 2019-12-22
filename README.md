@@ -18,13 +18,13 @@ It is an insertion heuristic designed for online vehicle routing problem (VRP) w
 | 10 | 4.045071 | -1.51968 | 2 | 4 |
 
 Notes:
-    - x and y are coordinate of the node.
-    - 'label' 0 means deport, where all the vehicle stored at time = 0
-    - 'label' 1 means pick-up requirement
-    - 'label' 2 means drop-off requirement
-    - Pick-up node 1 corresponds to drop-off node 6, i.e. 1 - 6, 2 - 7, ...
-    - 'time' is the time at which the customer send out a request for pick-up. 
-    - For drop-off nodes, there is no need to put a value in 'time' column
+- x and y are coordinate of the node.
+- 'label' 0 means deport, where all the vehicle stored at time = 0
+- 'label' 1 means pick-up requirement
+- 'label' 2 means drop-off requirement
+- Pick-up node 1 corresponds to drop-off node 6, i.e. 1 - 6, 2 - 7, ...
+- 'time' is the time at which the customer send out a request for pick-up. 
+- For drop-off nodes, there is no need to put a value in 'time' column
 
 ## 2. Codes
 - main_distance: for vehicle routing based on the objective to minimize **total travel distance** of the fleet
