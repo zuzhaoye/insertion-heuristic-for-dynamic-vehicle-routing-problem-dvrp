@@ -16,3 +16,7 @@ Sample input:
 |9|-1.42717|-1.10393|2|3|
 |10|4.045071|-1.51968|2|4|
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
