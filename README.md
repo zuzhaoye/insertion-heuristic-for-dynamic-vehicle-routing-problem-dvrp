@@ -2,9 +2,9 @@
 It is an insertion heuristic designed for online vehicle routing problem with the objective to either minimize the total **travel distance** of the fleet or minimize the **waiting time** of customers.
 
 Sample input:
-|node|x|y|label|time|
+| node | x | y | label | time |
 | --- | --- | --- | --- | --- |
-|0|0|0|0|-1|
+| 0 | 0 | 0 | 0 | -1 |
 |1|-2.57836|-2.18999|1|0|
 |2|-3.68228|-1.40857|1|1|
 |3|1.848372|0.752895|1|2|
