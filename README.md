@@ -3,6 +3,7 @@ It is an insertion heuristic designed for online vehicle routing problem with th
 
 Sample input:
 |node|x|y|label|time|
+| --- | --- | --- | --- | --- |
 |0|0|0|0|-1|
 |1|-2.57836|-2.18999|1|0|
 |2|-3.68228|-1.40857|1|1|
