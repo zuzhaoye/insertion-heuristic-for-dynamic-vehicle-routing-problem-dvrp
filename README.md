@@ -1,5 +1,5 @@
-# insertion_heuristic_for_online_Vehicle_Routing_Problem
-It is an insertion heuristic designed for online vehicle routing problem (VRP) with the objective to either minimize the **total travel distance** of the fleet or to minimize the **total waiting time** of customers subject to vehicle capacity and fleet size constraint.
+# insertion heuristic for Dynamic Vehicle Routing Problem (DVRP)
+It is an insertion heuristic designed for dynamic vehicle routing problem (DVRP) with the objective to either minimize the **total travel distance** of the fleet or to minimize the **total waiting time** of customers subject to vehicle capacity and fleet size constraint. The main logic is greedy.
 
 ## 1. Sample input:
 
