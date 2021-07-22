@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pylab as plt
 from celluloid import Camera
-from functions import vehicle, insert, update, distance, distance_path
+from functions import vehicle, insert, update, distance, distance_path, waiting_time
 
 # read nodes from file
 nodes = pd.read_csv('input/demands.csv', index_col = 'node')
