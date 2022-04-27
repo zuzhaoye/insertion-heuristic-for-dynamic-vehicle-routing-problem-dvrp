@@ -1,4 +1,4 @@
-# insertion heuristic for Dynamic Vehicle Routing Problem (DVRP)
+# Insertion heuristic for dynamic vehicle routing problem (DVRP)
 It is an insertion heuristic designed for dynamic vehicle routing problem (DVRP) with the objective to either minimize the **total travel distance** of the fleet or to minimize the **total waiting time** of customers subject to vehicle capacity and fleet size constraint. The main logic is greedy. 
 
 Note: Carpool or carsharing function is included. The maximum customers allowed is set to be 2 currently and each pickup will add 1 customer to the car (you can modify the maximum number of customers in the main_waiting_time.py/main_waiting_time.py -> customer_cap).
